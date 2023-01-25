@@ -1,18 +1,14 @@
 :root {
-  --cor-de-fundo: #FFFFFF;
-  --cor-botao: #8E2424;
-  --cor-fonte: #667085;
+  --background: #FFFFFF;
+  --text-color: #667085;
+  --main-color: #8E2424;
 }
 
 body, body a {
-  background-color: var(--cor-de-fundo);
-  color: var(--cor-fonte);
+  background-color: var(--background);
+  color: var(--text-color);
 }
 
-
-.div-texto {
-  color: black;
-}
 
 .cabecalho {
   display: flex;
@@ -38,8 +34,8 @@ body, body a {
 }
 
 .botao-cadastrar {
-  background: var(--cor-botao);
-  color: var(--cor-de-fundo);
+  background: var(--main-color);
+  color: var(--background);
   padding: 1em;
   border-radius: 8px;
 }
