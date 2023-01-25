@@ -2,11 +2,15 @@
   --background: #FFFFFF;
   --text-color: #667085;
   --main-color: #8E2424;
+  --principal-font: 'Inter', sans-serif;
 }
 
 body, body a {
   background-color: var(--background);
   color: var(--text-color);
+  font-family: var(--principal-font);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 
@@ -14,7 +18,7 @@ body, body a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1em 0 0 15em;
+  margin: 2.5em 0 0 15em;
 }
 
 .cabecalho-logo {
