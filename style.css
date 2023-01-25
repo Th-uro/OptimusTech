@@ -1,0 +1,51 @@
+:root {
+  --cor-de-fundo: #FFFFFF;
+  --cor-botao: #8E2424;
+  --cor-fonte: #667085;
+}
+
+body, body a {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-fonte);
+}
+
+
+.div-texto {
+  color: black;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 0 15em;
+}
+
+.cabecalho-logo {
+  margin-right: 5em;
+}
+
+.lista-menu__item{
+  padding: 0 1em;
+}
+
+.cabecalho-botao{
+  margin-left: 5em;
+}
+
+.botao-entrar {
+  margin: 0 1em 0 3em ;
+}
+
+.botao-cadastrar {
+  background: var(--cor-botao);
+  color: var(--cor-de-fundo);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.lista-menu {
+  display: flex;
+  margin-left: 5em;
+  gap: 2em;
+}
