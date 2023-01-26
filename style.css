@@ -1,7 +1,8 @@
 :root {
-  --background: #FFFFFF;
-  --text-color: #667085;
-  --main-color: #8E2424;
+  --background:#FFFFFF;
+  --text-color:#667085;
+  --main-color:#8E2424;
+  --secondary-color:#101828;
   --principal-font: 'Inter', sans-serif;
 }
 
@@ -13,6 +14,7 @@ body, body a {
   font-weight: 500;
 }
 
+/* ---------- NAVBAR ----------*/
 
 .cabecalho {
   display: flex;
@@ -48,4 +50,31 @@ body, body a {
   display: flex;
   margin-left: 5em;
   gap: 2em;
+}
+
+/* ---------- ABOUT ----------*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10em 0;
+  gap: 24px;
+}
+
+.about-our {
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.about-question {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--secondary-color);
+}
+
+.about-text {
+  font-size: 20px;
+  width: 40em;
+  text-align: center;
 }
