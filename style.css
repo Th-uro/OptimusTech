@@ -58,7 +58,7 @@ body, body a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10em 0;
+  margin: 5em 0;
   gap: 24px;
 }
 
@@ -77,4 +77,30 @@ body, body a {
   font-size: 20px;
   width: 40em;
   text-align: center;
+}
+
+/* ---------- MÉTRICAS ----------*/
+
+.metricas-container {
+  display: flex;
+  align-items: center;
+  margin: 0 5em;
+}
+
+.metricas-space {
+  margin-left: 2.5em;
+  width: 30em;
+}
+
+
+.metricas-titulo {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.metricas-subtitle {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 18px;
 }
