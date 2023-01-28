@@ -5,6 +5,7 @@
   --main-color:#8E2424;
   --secondary-color:#101828;
   --principal-font: 'Inter', sans-serif;
+  --border: #EAECF0;
 }
 
 body, body a {
@@ -59,7 +60,7 @@ body, body a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5em 0;
+  margin: 7em 0;
   gap: 24px;
 }
 
@@ -85,7 +86,8 @@ body, body a {
 .metricas-container {
   display: flex;
   align-items: center;
-  margin: 0 5em;
+  width: 90%;
+  margin: 0 0 7em 4em;
 }
 
 .metricas-space {
@@ -105,16 +107,15 @@ body, body a {
   font-size: 18px;
 }
 
-/* ---------- OPEN-POSITIONS ----------*/
+/* ---------- jobs ----------*/
 
-.open-positions {
-  margin: 5em 0;
+.jobs {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.open-positions__title {
+.jobs__title {
   background-color: var(--secondary-background);
   padding: 0.25em 0.75em;
   border-radius: 1em;
@@ -122,18 +123,58 @@ body, body a {
   font-size: 14px;
 }
 
-.open-positions__subtitle {
+.jobs__subtitle {
   margin: 1em 0;
   font-weight: 600;
   font-size: 32px;
   color: var(--secondary-color);
 }
 
-.open-positions__text {
+.jobs__text {
   font-size: 20px;
   font-weight: 400;
 }
 
-.open-positions__image {
+.jobs__image {
   margin: 4em 0;
+}
+
+.jobs-list {
+  padding: 0 15em;
+}
+
+.jobs-list__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.jobs-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 2em 0;
+}
+
+.jobs-list-ul {
+  padding: 0 2em;
+}
+
+.jobs-list__li {
+  width: 90%;
+  margin: 2em 0;
+  padding: 0.5em;
+  border: 1px solid var(--border);
+  border-radius: 1em;
+}
+
+.jobs-description{
+  display: flex;
+  padding: 0 1em;
+}
+
+.jobs-list__item {
+  display: flex;
+  gap: 2em;
+  padding: 0 0 1em 1em;
 }
