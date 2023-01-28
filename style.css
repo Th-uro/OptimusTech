@@ -6,6 +6,8 @@
   --secondary-color:#101828;
   --principal-font: 'Inter', sans-serif;
   --border: #EAECF0;
+  --footer: #F9FAFB;
+  --border-footer: #D0D5DD;
 }
 
 body, body a {
@@ -220,5 +222,51 @@ body, body a {
 
 .depositions-office {
   font-size: 14px;
+  font-weight: 400;
+}
+
+/* ---------- FOOTER ----------*/
+
+.footer {
+  background-color: var(--footer);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--secondary-color);
+  margin: 1em 0;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-cadastro {
+  margin: 2em 0;
+}
+
+.footer-cadastro__email::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer-cadastro__email {
+  padding: 1em 6em 1em 3em;
+  border: 1px solid var(--border-footer);
+  border-radius: 8px;
+}
+
+.footer-cadastro__botao {
+  padding: 0.8em 2em;
+  margin-left: 1.5em;
+}
+
+.footer-direitos {
   font-weight: 400;
 }
